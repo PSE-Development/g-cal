@@ -1,0 +1,15 @@
+In order to deploy the g-cal server, copy the src folder to the destination server. Technical requirements for the server
+can be obtained from the 'Pflichtenheft'.
+Prerequisites to be installed are docker and docker compose.
+If the server does not have enough compute to build the jar file, the jar has to be compiled locally into a fat jar,
+using ./gradlew clean fatJar, and then copied to the destination server.
+The Dockerfile needs to be adapted to the version used. (Comment in the missing lines for building the jar remotely).
+
+The two Docker containers for the server and the database can be run via docker-compose, with the following command:
+sudo docker-compose up --remove-orphans --build
+To run a detached server, include the flag -d.
+Both containers can be managed via normal Docker commands. Since the database uses volumes, stored data outlives
+the containers.
+
+Specifications to the database connection, as well as server url and port can be made in the .env file.
+The database definition used can be found under init.sql.

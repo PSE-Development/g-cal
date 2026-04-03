@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Data Extraction Rules (Android 12+)
+
+   Hangi verilerin cihaz transferinde dahil edileceğini belirler.
+   Hassas veriler (auth tokens) hariç tutulmalı.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Yedeklenmeyecek dosyalar -->
+        <exclude domain="sharedpref" path="auth_prefs.xml" />
+        <exclude domain="database" path="gcal_cache.db" />
+
+        <!-- Yedeklenecek dosyalar -->
+        <include domain="sharedpref" path="user_settings.xml" />
+        <include domain="database" path="gcal_local.db" />
+    </cloud-backup>
+
+    <device-transfer>
+        <!-- Cihaz transferinde dahil edilmeyecekler -->
+        <exclude domain="sharedpref" path="auth_prefs.xml" />
+
+        <!-- Cihaz transferinde dahil edilecekler -->
+        <include domain="sharedpref" path="user_settings.xml" />
+        <include domain="database" path="gcal_local.db" />
+    </device-transfer>
+</data-extraction-rules>

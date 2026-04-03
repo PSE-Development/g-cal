@@ -1,0 +1,30 @@
+services:
+  server-database:
+    image: postgres:16-alpine
+    container_name: server-database
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    volumes:
+      - server-database-data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  g-cal-server:
+    build: .
+    container_name: g-cal-server
+    ports:
+      - "${SERVER_PORT}:${SERVER_PORT}"
+    environment:
+        - DB_URL=${DB_URL}
+        - DB_DRIVER=${DB_DRIVER}
+        - DB_USER=${DB_USER}
+        - DB_PASSWORD=${DB_PASSWORD}
+        - SERVER_URL=${SERVER_URL}
+        - SERVER_PORT=${SERVER_PORT}
+    depends_on:
+      - server-database
+    restart: always
+
+volumes:
+  server-database-data:

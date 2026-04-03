@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">G-Cal</string>
+    <string name="app_description">Dein gamifizierter Kalender</string>
+
+    <string name="nav_kalender">Kalender</string>
+    <string name="nav_rangliste">Rangliste</string>
+    <string name="nav_berichte">Berichte</string>
+    <string name="nav_profil">Profil</string>
+
+    <string name="login_title">G-Cal</string>
+    <string name="login_subtitle">Dein gamifizierter Kalender</string>
+    <string name="login_button">Login mit Google</string>
+    <string name="onboarding_title">Bitte wähle einen Benutzernamen</string>
+    <string name="onboarding_hint">3–20 Zeichen, nur Kleinbuchstaben, Zahlen und _</string>
+    <string name="onboarding_placeholder">z.B. max_mustermann</string>
+    <string name="onboarding_submit">Weiter</string>
+    <string name="onboarding_username_label">Benutzername</string>
+
+    <string name="view_tag">Tag</string>
+    <string name="view_woche">Woche</string>
+    <string name="view_monat">Monat</string>
+    <string name="view_jahr">Jahr</string>
+    <string name="calendar_no_events">Keine Termine</string>
+    <string name="calendar_add_hint">Tippe auf + um einen Eintrag hinzuzufügen</string>
+    <string name="calendar_filter">Gruppen filtern</string>
+    <string name="calendar_jump_to_date">Beliebiges Datum navigieren</string>
+    <string name="calendar_jump_title">Zu Datum springen</string>
+    <string name="calendar_selected_date">Ausgewähltes Datum:</string>
+    <string name="calendar_quick_select">Schnellauswahl:</string>
+    <string name="calendar_today">Heute</string>
+    <string name="calendar_tomorrow">Morgen</string>
+    <string name="calendar_next_week">+1 Woche</string>
+    <string name="calendar_go_to_date">Gehe zu Datum</string>
+    <string name="calendar_event_count">%d Termine</string>
+    <string name="calendar_pick_date">Datum wählen…</string>
+
+    <string name="event_new">Neuer Eintrag</string>
+    <string name="event_edit">Eintrag bearbeiten</string>
+    <string name="event_delete">Löschen</string>
+    <string name="event_save">Speichern</string>
+    <string name="event_todo">ToDo</string>
+    <string name="event_termin">Termin</string>
+    <string name="event_shared">Shared Event</string>
+    <string name="event_completed">Erledigt</string>
+    <string name="event_not_completed">Nicht erledigt</string>
+    <string name="event_name_label">Name *</string>
+    <string name="event_description_label">Beschreibung</string>
+    <string name="event_date_label">Datum</string>
+    <string name="event_from_label">Von</string>
+    <string name="event_to_label">Bis</string>
+    <string name="event_start_placeholder">Start</string>
+    <string name="event_end_placeholder">Ende</string>
+    <string name="event_location_label">Standort</string>
+    <string name="event_group_label">Gruppe</string>
+    <string name="event_share_with">Teilen mit…</string>
+    <string name="event_pick_time">Uhrzeit wählen</string>
+    <string name="event_pick_group">Gruppe wählen</string>
+    <string name="event_remove">Entfernen</string>
+    <string name="event_repeat">Wiederholung</string>
+
+    <string name="group_create">Gruppe erstellen</string>
+    <string name="group_name">Gruppenname</string>
+    <string name="group_color">Farbe</string>
+    <string name="group_none">Keine Gruppe</string>
+    <string name="group_new">Neue Gruppe</string>
+    <string name="group_pick_color">Farbe wählen:</string>
+    <string name="group_preview">Vorschau:</string>
+
+    <string name="filter_hint">Tippe auf eine Gruppe um sie ein- oder auszublenden</string>
+    <string name="filter_no_groups">Keine Gruppen vorhanden</string>
+    <string name="filter_create_first">Erstelle deine erste Gruppe!</string>
+
+    <string name="profile_level">Level einsehen</string>
+    <string name="profile_settings">Einstellungen</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_delete">Account löschen</string>
+    <string name="profile_friends">Freunde hinzufügen</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_dark_mode_desc">Dunkles Design aktivieren</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_notifications">Benachrichtigungen</string>
+    <string name="settings_notifications_desc">Push-Benachrichtigungen aktivieren</string>
+    <string name="settings_import">Kalender importieren</string>
+    <string name="settings_import_desc">Einträge aus einer Datei importieren</string>
+
+
+    <string name="reports_title">Berichte</string>
+    <string name="reports_select_period">Bitte wählen Sie einen Zeitraum</string>
+    <string name="reports_select_hint">Bitte wählen Sie einen Zeitraum für die Berichte</string>
+    <string name="reports_or_custom">oder wählen Sie den Zeitraum selber aus</string>
+    <string name="reports_or_custom_self">oder wählen Sie den Zeitraum selbst aus</string>
+    <string name="reports_from">von</string>
+    <string name="reports_to">bis</string>
+    <string name="reports_search">Suchen</string>
+    <string name="reports_completed">Erledigte Aufgaben</string>
+    <string name="reports_open">Offene Aufgaben</string>
+    <string name="reports_xp">Gesammelte XP</string>
+    <string name="reports_day">Tag</string>
+    <string name="reports_week">Woche</string>
+    <string name="reports_month">Monat</string>
+    <string name="reports_year">Jahr</string>
+    <string name="reports_report">Bericht</string>
+    <string name="reports_validation_error">Ungültiger Zeitraum: Von muss vor Bis liegen</string>
+
+    <string name="leaderboard_title">Rangliste</string>
+    <string name="leaderboard_rank">Rang</string>
+    <string name="leaderboard_level">Level</string>
+    <string name="leaderboard_xp">XP</string>
+    <string name="leaderboard_empty">Noch keine Einträge</string>
+    <string name="leaderboard_loading">Rangliste wird geladen…</string>
+    <string name="leaderboard_error">Fehler beim Laden</string>
+    <string name="leaderboard_empty_desc">Die Rangliste ist noch leer.</string>
+
+    <string name="friends_title">Freunde</string>
+    <string name="friends_add">Freund hinzufügen</string>
+    <string name="friends_requests">Eingehende Anfragen</string>
+    <string name="friends_search_hint">z.B. max_mustermann</string>
+    <string name="friends_search_desc">Gib den Benutzernamen der Person ein, die du als Freund hinzufügen möchtest.</string>
+    <string name="friends_no_requests">Keine offenen Anfragen</string>
+    <string name="friends_send">Senden</string>
+    <string name="friends_sending">Wird gesendet…</string>
+    <string name="friends_empty">Noch keine Freunde hinzugefügt.</string>
+    <string name="friends_remove">Freund entfernen</string>
+    <string name="friends_select">Freunde auswählen</string>
+
+    <string name="dialog_confirm">Bestätigen</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="dialog_close">Schließen</string>
+    <string name="dialog_back">Zurück</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_delete_title">Eintrag löschen?</string>
+    <string name="dialog_delete_message">Möchten Sie diesen Eintrag wirklich löschen?</string>
+    <string name="dialog_delete_series">Dies ist ein wiederkehrender Eintrag.</string>
+    <string name="dialog_delete_single">Nur diesen Eintrag löschen</string>
+    <string name="dialog_delete_all">Alle zukünftigen löschen</string>
+    <string name="dialog_logout_title">Abmelden?</string>
+    <string name="dialog_logout_message">Möchten Sie sich wirklich abmelden?</string>
+    <string name="dialog_logout_confirm">Abmelden</string>
+    <string name="dialog_logout_message_v2">Möchtest du dich wirklich abmelden?</string>
+    <string name="dialog_delete_account_title">Account löschen?</string>
+    <string name="dialog_delete_account_message">Diese Aktion kann nicht rückgängig gemacht werden. Alle Daten werden gelöscht.</string>
+    <string name="dialog_delete_account_message_v2">Möchtest du deinen Account wirklich unwiderruflich löschen? Alle deine Daten, Events und Fortschritte werden dauerhaft entfernt. Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="dialog_delete_confirm_final">Endgültig löschen</string>
+    <string name="dialog_delete_processing">Wird gelöscht…</string>
+
+    <string name="error_network">Keine Internetverbindung</string>
+    <string name="error_server">Serverfehler. Bitte versuchen Sie es später erneut.</string>
+    <string name="error_validation">Ungültige Eingabe</string>
+    <string name="error_username_taken">Benutzername bereits vergeben</string>
+    <string name="error_username_invalid">Benutzername ungültig</string>
+    <string name="error_retry">Erneut versuchen</string>
+    <string name="error_unknown">Ein Fehler ist aufgetreten</string>
+    <string name="error_unknown_occurred">Ein unbekannter Fehler ist aufgetreten</string>
+    <string name="error_generic">Fehler</string>
+    <string name="error_retry_short">Erneut</string>
+    <string name="error_server_occurred">Serverfehler aufgetreten</string>
+
+    <string name="xp_gained">+%d XP</string>
+    <string name="level_current">Level %d</string>
+    <string name="level_progress">%d / %d XP</string>
+    <string name="level_info_title">Dein Level</string>
+    <string name="level_xp_title">Erfahrungspunkte</string>
+    <string name="level_progress_percent">%d%% zum nächsten Level</string>
+
+    <string name="cd_back">Zurück</string>
+    <string name="cd_close">Schließen</string>
+    <string name="cd_add">Hinzufügen</string>
+    <string name="cd_filter">Filter</string>
+    <string name="cd_calendar">Kalender</string>
+    <string name="cd_profile_picture">Profilbild</string>
+
+    <string name="reports_achievements">Erfolge</string>
+    <string name="reports_no_achievements">In diesem Zeitraum wurden keine Erfolge erzielt.</string>
+
+    <string name="default_web_client_id">961782331597-76j7632annj0v20f0vpgovmmr9j0gaft.apps.googleusercontent.com</string>
+</resources>

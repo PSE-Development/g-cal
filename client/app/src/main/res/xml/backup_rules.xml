@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Backup Rules (Android 11 ve altı)
+
+   Auto Backup için hangi dosyaların dahil/hariç tutulacağını belirler.
+   Hassas veriler (auth tokens, session data) yedeklenmemeli.
+-->
+<full-backup-content>
+    <!-- Yedeklenmeyecek dosyalar -->
+    <exclude domain="sharedpref" path="auth_prefs.xml" />
+    <exclude domain="database" path="gcal_cache.db" />
+    <exclude domain="database" path="gcal_cache.db-journal" />
+    <exclude domain="database" path="gcal_cache.db-shm" />
+    <exclude domain="database" path="gcal_cache.db-wal" />
+
+    <!-- Yedeklenecek dosyalar -->
+    <include domain="sharedpref" path="user_settings.xml" />
+    <include domain="database" path="gcal_local.db" />
+</full-backup-content>

@@ -1,0 +1,12 @@
+# Default ignored files
+.idea/
+*.iml
+
+
+server/build/
+.gradle/
+server/target/
+
+client/build/
+client/target/
+

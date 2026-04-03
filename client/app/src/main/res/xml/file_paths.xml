@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FileProvider Paths - Kalender Import/Export için -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Internal App Storage -->
+    <files-path
+        name="internal_files"
+        path="." />
+
+    <!-- Cache Directory -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- External Files Directory -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- External Cache Directory -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+
+    <!-- Downloads (für Kalender-Import) -->
+    <external-path
+        name="downloads"
+        path="Download/" />
+
+</paths>
